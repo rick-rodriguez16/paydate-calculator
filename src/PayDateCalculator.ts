@@ -138,7 +138,7 @@ class PayDateCalculator {
     }
 }
 
-/*
+
 const client = new PayDateCalculator();
 const fundDate = new Date('June 17, 2022');
 const holidays = [new Date('June 25, 2022'), new Date('July 4, 2022'),];
@@ -148,4 +148,3 @@ const hasDirDep = true
 
 const duedateCalculated = client.calculateDueDate(fundDate, holidays, paySpan, payDate, hasDirDep);
 console.log(duedateCalculated);
-*/
